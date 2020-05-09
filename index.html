@@ -21,6 +21,15 @@
                 schema: wt_schema,
                 theme: 'bootstrap4'
             });
+
+            //Server loads settings.json //takes backup
+            //Set the settings.json
+            //editor.setValue({ name: "John Smith" });
+
+            editor.on('change', () => {
+                //Contact server
+                // Write to settings.json
+            });
         });
 </script>
 </html>
