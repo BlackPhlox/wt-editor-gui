@@ -4,6 +4,7 @@
   "description": "Graphical user interface based on wt-editor-cli",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js -o",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "BlackPhlox",
@@ -11,6 +12,7 @@
   "dependencies": {
     "@json-editor/json-editor": "^2.2.1",
     "connect": "^3.7.0",
+    "opn": "^6.0.0",
     "serve-static": "^1.14.1"
   }
 }
