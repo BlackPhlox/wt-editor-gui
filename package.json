@@ -1,0 +1,16 @@
+{
+  "name": "wt-editor-gui",
+  "version": "0.0.1",
+  "description": "Graphical user interface based on wt-editor-cli",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "BlackPhlox",
+  "license": "MIT",
+  "dependencies": {
+    "@json-editor/json-editor": "^2.2.1",
+    "connect": "^3.7.0",
+    "serve-static": "^1.14.1"
+  }
+}
