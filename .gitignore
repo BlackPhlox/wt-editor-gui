@@ -1,3 +1,8 @@
+wte.bat
+config.json
+.vscode
+temp.json
+
 # Logs
 logs
 *.log

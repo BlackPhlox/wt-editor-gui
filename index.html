@@ -22,6 +22,10 @@
                 theme: 'bootstrap4'
             });
 
+            fetch("temp.json")
+                .then(response => response.json())
+                .then(settingsFileObject => editor.setValue(settingsFileObject))
+
             //Server loads settings.json //takes backup
             //Set the settings.json
             //editor.setValue({ name: "John Smith" });
@@ -29,6 +33,7 @@
             editor.on('change', () => {
                 //Contact server
                 // Write to settings.json
+                console.log(editor.getValue());
             });
         });
 </script>
